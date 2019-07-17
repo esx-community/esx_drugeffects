@@ -127,7 +127,7 @@ AddEventHandler('esx_drugeffects:onWeed', function()
     SetTimecycleModifier("spectator5")
     SetPedMotionBlur(playerPed, true)
     SetPedMovementClipset(playerPed, "move_m@hipster@a", true)
-    SetPedIsDrunk(playerPed, true)
+    SetPedIsDrug(playerPed, true)
     
     --Efects
     local player = PlayerId()
@@ -155,7 +155,7 @@ AddEventHandler('esx_drugeffects:onOpium', function()
     SetTimecycleModifier("spectator5")
     SetPedMotionBlur(playerPed, true)
     SetPedMovementClipset(playerPed, "move_m@drunk@moderatedrunk", true)
-    SetPedIsDrunk(playerPed, true)
+    SetPedIsDrug(playerPed, true)
     
     --Efects
     local player = PlayerId()
@@ -186,7 +186,7 @@ AddEventHandler('esx_drugeffects:onMeth', function()
     SetTimecycleModifier("spectator5")
     SetPedMotionBlur(playerPed, true)
     SetPedMovementClipset(playerPed, "move_injured_generic", true)
-    SetPedIsDrunk(playerPed, true)
+    SetPedIsDrug(playerPed, true)
     
    --Efects
     local player = PlayerId()  
@@ -214,7 +214,7 @@ AddEventHandler('esx_drugeffects:onCoke', function()
     SetTimecycleModifier("spectator5")
     SetPedMotionBlur(playerPed, true)
     SetPedMovementClipset(playerPed, "move_m@hurry_butch@a", true)
-    SetPedIsDrunk(playerPed, true)
+    SetPedIsDrug(playerPed, true)
     
     --Efects
     local player = PlayerId()
