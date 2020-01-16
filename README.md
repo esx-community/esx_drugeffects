@@ -3,7 +3,7 @@ Modifided version of esx_optionalneeds from @indilo53
 
 [REQUIREMENTS]
 
-* esx_status https://github.com/FXServer-ESX/fxserver-esx_status
+* esx_status https://github.com/ESX-Org/esx_status
 
 * esx_drugs https://github.com/ESX-Org/esx_drugs <- Original
 
