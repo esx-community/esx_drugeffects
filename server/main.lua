@@ -44,4 +44,4 @@ ESX.RegisterUsableItem('xanax', function(source)
 	xPlayer.removeInventoryItem('xanax', 1)
 
 	TriggerClientEvent('esx_status:remove', source, 'drug', 249000)
-end
+end)
