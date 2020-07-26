@@ -96,9 +96,9 @@ end
 
 --Drugs Effects
 
---Weed
-RegisterNetEvent('esx_drugeffects:onWeed')
-AddEventHandler('esx_drugeffects:onWeed', function()
+--Marijuana
+RegisterNetEvent('esx_drugeffects:onMarijuana')
+AddEventHandler('esx_drugeffects:onMarijuana', function()
   local playerPed = GetPlayerPed(-1)
 
     RequestAnimSet("move_m@hipster@a") 

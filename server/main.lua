@@ -2,13 +2,13 @@ ESX = nil
 
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
-ESX.RegisterUsableItem('weed', function(source)
+ESX.RegisterUsableItem('marijuana', function(source)
 	local xPlayer = ESX.GetPlayerFromId(source)
 
-	xPlayer.removeInventoryItem('weed', 1)
+	xPlayer.removeInventoryItem('marijuana', 1)
 
 	TriggerClientEvent('esx_status:add', source, 'drug', 166000)
-	TriggerClientEvent('esx_drugeffects:onWeed', source)
+	TriggerClientEvent('esx_drugeffects:onMarijuana', source)
 end)
 
 ESX.RegisterUsableItem('opium', function(source)
